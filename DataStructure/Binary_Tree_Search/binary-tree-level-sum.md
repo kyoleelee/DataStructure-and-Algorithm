@@ -55,7 +55,9 @@ Explanation：
 4+5+6+7=22
  
 
- ### C++ Solution
+ ### Solution
+ 
+ ```c++
  
 /**
  * Definition of TreeNode:
@@ -92,5 +94,5 @@ public:
         dfs(node->right, sum, depth + 1, level);
     }
 };
- 
+ ```
  
