@@ -1,6 +1,7 @@
 # Binary Tree Level Sum
 > Source: LintCode(https://www.lintcode.com/problem/binary-tree-level-sum/?utm_source=sc-github-wzz)
 ## Problem Description
+```
 Given a binary tree and an integer which is the depth of the target level.
 
 Calculate the sum of the nodes in the target level.
@@ -53,12 +54,11 @@ Explanation：
   8         9
 
 4+5+6+7=22
- 
+```
 
- ### Solution
+ ### C++ Solution
  
- ```c++
- 
+ ```
 /**
  * Definition of TreeNode:
  * class TreeNode {
