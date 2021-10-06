@@ -36,9 +36,9 @@ For this tree, you function need to return a tree node which value equals 3.
 ```
 
  ### C++ Solution
- BST is a sorted array at in-order traversal, so the root of BST is the middle value of sorted array.
- The left sub tree is the left side before the middle of sorted array.
- The right sub tree is the right side after the middle of sorted array.
+ BST is a sorted array at in-order traversal, so the root of BST is the middle value of sorted array.  
+ The left sub tree is the left side before the middle of sorted array.  
+ The right sub tree is the right side after the middle of sorted array.  
  
  ```
 /**
