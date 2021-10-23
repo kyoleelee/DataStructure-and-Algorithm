@@ -37,7 +37,7 @@ Explanation:
 [-1, 0, 1] and [-1, -1, 2] are two triples.1, 2]]
 ```
 
- ### C++ Solution
+## C++ Solution
 1. Sort the array first 
 2. locate the first number in array and use two pointer method at the rest of array 
 
