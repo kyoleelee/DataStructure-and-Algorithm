@@ -141,19 +141,17 @@ Space Complexity: O(2^n * n)
 ```
 class Solution {
 public:
-    /**
-     * @param nums: A set of numbers
-     * @return: A list of lists
-     */
-    vector<vector<int>> subsets(vector<int> &nums) {
+    vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ans;
         int n = nums.size();
-        sort(nums.begin(), nums.end());
         
+        // 2^n = 1<<n
+		// there is 2^n combination when thinking as binary representation
         for (int i = 0; i < (1 << n); i++) {
             vector<int> subset;
             for (int j = 0; j < n; j++) {
-                if (i & (1 << j)) {
+                // convert i to binary and check if there is a bit is 1
+                if ((i >> j) & 1 != 0) {
                     subset.push_back(nums[j]);
                 }
             }
