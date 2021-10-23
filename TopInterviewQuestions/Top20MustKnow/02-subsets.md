@@ -145,8 +145,7 @@ public:
         vector<vector<int>> ans;
         int n = nums.size();
         
-        // 2^n = 1<<n 
-		// there is 2^n combination when thinking as binary representation
+        // 2^n = 1<<n (there is 2^n combination when thinking as binary representation)  
         for (int i = 0; i < (1 << n); i++) {
             vector<int> subset;
             for (int j = 0; j < n; j++) {
