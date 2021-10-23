@@ -41,8 +41,8 @@ Explanation:
 1. Sort the array first 
 2. locate the first number in array and use two pointer method at the rest of array 
 
-Time Complexity: O(n^2) 
-Space Complexity: O(n) 
+Time Complexity: O(n^2)  
+Space Complexity: O(n)  
  
  ```
 class Solution {
