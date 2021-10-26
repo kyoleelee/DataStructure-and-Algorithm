@@ -31,7 +31,7 @@ O(n2) time is acceptable. Can you do it in O(n) time.
 3. This problem we need consider two cases that the length of string can be either odd or even  
    When it's odd, the middle pointer are same for both left and right  
    When it's even, the middle pointer for left is mid and for right should be mid + 1  
-4. Using two pointer method at this problem shall have time complexity of O(n^2) because the search of longest palindrome in one string is O(n)  
+4. Using two pointer method at this problem shall have time complexity of O(n^2) because the search of longest palindrome in one string is O(n)
    and the loop to pick up the center is also O(n) for entire string
 
 Time Complexity: O(n^2)  
